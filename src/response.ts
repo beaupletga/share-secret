@@ -160,6 +160,8 @@ async function getSecret(secret: string): Promise<Response> {
 					${secret}
 				</div>
 			</main>
+			<button id="copy-button" onclick="navigator.clipboard.writeText
+            	(document.getElementById('display-container').innerText);">Copy secret</button>
 		</div>`;
 
 	return new Response(html, {
