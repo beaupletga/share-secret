@@ -17,7 +17,12 @@ Simple website to share a secret with confidence.
     - If it does, the server retrieves the secret from memory and deletes it from Cloudflare KV
     - The server returns the shared secret to the client
 
+Homepage:
 ![](https://github.com/beaupletga/share-secret/blob/master/assets/share-secret-homepage.png)
+
+Get the link:
 ![](https://github.com/beaupletga/share-secret/blob/master/assets/share-secret-link.png)
+
+After opening the link:
 ![](https://github.com/beaupletga/share-secret/blob/master/assets/share-secret-retrieval.png)
 
