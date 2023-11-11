@@ -17,7 +17,7 @@ Simple website to share a secret with confidence.
     - If it does, the server retrieves the secret from memory and deletes it from Cloudflare KV
     - The server returns the shared secret to the client
 
-![](https://github.com/beaupletga/transcribeanyaudio.com/blob/master/assets/share-secret-homepage.png)
-![](https://github.com/beaupletga/transcribeanyaudio.com/blob/master/assets/share-secret-link.png)
-![](https://github.com/beaupletga/transcribeanyaudio.com/blob/master/assets/share-secret-retrieval.png)
+![](https://github.com/beaupletga/share-secret/blob/master/assets/share-secret-homepage.png)
+![](https://github.com/beaupletga/share-secret/blob/master/assets/share-secret-link.png)
+![](https://github.com/beaupletga/share-secret/blob/master/assets/share-secret-retrieval.png)
 
