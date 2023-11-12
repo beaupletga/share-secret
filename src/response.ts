@@ -100,7 +100,7 @@ const HEADER = `
 <h1>
 	<a href='/'>Share your secret</a>
 </h1>
-<p id="subtitle">Enter a secret, and receive a link to distribute this secret.. Your secret will be destroyed upon opening and expires after 7 days.</p>
+<p id="subtitle">Enter a secret, and receive a link to distribute this secret. Your secret will be destroyed upon opening and expires after 7 days.</p>
 </header>`
 
 async function getSecretForm(): Promise<Response> {
