@@ -1,4 +1,3 @@
-import { v4 as uuidv4 } from 'uuid';
 import ResponseService from './response';
 
 export interface Env {
@@ -6,7 +5,7 @@ export interface Env {
 }
 
 async function saveSecret(env: Env, secret: string): Promise<string> {
-	const key = uuidv4();
+	const key = crypto.randomUUID()
 	const sevenDaysInSeconds = 60 * 60 * 24 * 7
 
 	await env.sharesecretnamespace.put(key, secret, { expirationTtl: sevenDaysInSeconds });
